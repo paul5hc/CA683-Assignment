@@ -4,4 +4,4 @@ import pandas as pd
 data = 'weatherAUS.csv'
 df = pd.read_csv(data)
 
-df.shape
+print(df.shape)
